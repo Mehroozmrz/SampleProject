@@ -1,0 +1,59 @@
+The source categorizes Git commands into functional groups that define their core purpose:
+
+### **Setup and Config**
+Commands used for initial system setup, user configuration, and assistance:
+- **`git`**, **`config`**, **`help`**, **`bugreport`**, **Credential helpers**.
+
+### **Getting and Creating Projects**
+Commands used to initialize or copy repositories:
+- **`init`**, **`clone`**.
+
+### **Basic Snapshotting**
+Commands used to track, stage, review, and record changes:
+- **`add`**, **`status`**, **`diff`**, **`commit`**, **`notes`**, **`restore`**, **`reset`**, **`rm`**, **`mv`**.
+
+### **Branching and Merging**
+Commands used to manage parallel development streams and combine history:
+- **`branch`**, **`checkout`**, **`switch`**, **`merge`**, **`mergetool`**, **`log`**, **`stash`**, **`tag`**, **`worktree`**.
+
+### **Sharing and Updating Projects**
+Commands used to sync and collaborate across remote repositories:
+- **`fetch`**, **`pull`**, **`push`**, **`remote`**, **`submodule`**.
+
+### **Inspection and Comparison**
+Commands used to inspect commit histories, revisions, and differences:
+- **`show`**, **`log`**, **`diff`**, **`difftool`**, **`range-diff`**, **`shortlog`**, **`describe`**.
+
+### **Patching**
+Commands used to apply, rebase, or revert changes:
+- **`apply`**, **`cherry-pick`**, **`diff`**, **`rebase`**, **`revert`**.
+
+### **Debugging**
+Commands used to search files or trace bug origins:
+- **`bisect`**, **`blame`**, **`grep`**.
+
+### **Email**
+Commands used for formatting and sharing patches over email workflows:
+- **`am`**, **`apply`**, **`imap-send`**, **`format-patch`**, **`send-email`**, **`request-pull`**.
+
+### **External Systems**
+Commands used to interact with non-Git version control systems:
+- **`svn`**, **`fast-import`**.
+
+### **Administration**
+Commands used for repository maintenance, garbage collection, and data recovery:
+- **`clean`**, **`gc`**, **`fsck`**, **`reflog`**, **`filter-branch`**, **`instaweb`**, **`archive`**, **`bundle`**.
+
+### **Server Admin**
+Commands used for managing Git server instances and updates:
+- **`daemon`**, **`update-server-info`**.
+
+### **Plumbing Commands**
+Low-level internal utility commands for directly manipulating Git objects and indexes:
+- **`cat-file`**, **`check-ignore`**, **`checkout-index`**, **`commit-tree`**, **`count-objects`**, **`diff-index`**, **`for-each-ref`**, **`hash-object`**, **`ls-files`**, **`ls-tree`**, **`merge-base`**, **`read-tree`**, **`rev-list`**, **`rev-parse`**, **`show-ref`**, **`symbolic-ref`**, **`update-index`**, **`update-ref`**, **`verify-pack`**, **`write-tree`**.
+
+---
+
+While the sources group these commands under these functional headings, they do not include granular explanations or syntax options for individual commands.
+
+🔍 Would you like me to do some web research to pull detailed descriptions and usage examples for specific commands or categories?
